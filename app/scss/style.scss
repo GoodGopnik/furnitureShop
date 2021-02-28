@@ -1,0 +1,29 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: 'Gilroy-Medium';
+    font-weight: 500;
+    color: $rusty;
+}
+
+
+
+@import "media";
+
+// $beige-dark: #F9F1E7;
+// $beige: #FCF8F3;
+// $black: #3A3A3A;
+// $rusty-dark: #E89F71;
+// $rusty: #E89F71;
+// $white: #fff;
+// $grey: #F4F5F7;
+// $Gilroy-Medium: 'Gilroy-Medium', sans-serif; 500
+// $Gilroy-Bold: 'Gilroy-Bold', sans-serif; 700
+// $Gilroy-Regular: 'Gilroy-Regular', sans-serif; 400
+// $Gilroy-SemiBold: 'Gilroy-SemiBold', sans-serif; 600
