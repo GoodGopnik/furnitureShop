@@ -6,7 +6,16 @@
 *::after {
     box-sizing: border-box;
 }
-
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.variable-width img {
+    padding: 0 30px
+}
+.ind_block {
+    position: absolute
+}
 
 
 @import "media";
