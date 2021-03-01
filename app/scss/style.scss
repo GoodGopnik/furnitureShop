@@ -15,7 +15,9 @@
     margin: 0 auto;
 }
 .header_block {
-    margin-top: 40px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 2;
 }
 .header_nav_block {
     display: flex;
@@ -31,6 +33,7 @@
     li {
         list-style: none;
         margin-right: 40px;
+        z-index: 2;
     }
     a {
         text-decoration: none;
@@ -49,6 +52,8 @@
     input {
         padding-left: 35px;
         background: url(../images/head/Ellipse.png) no-repeat 10px 13px;
+        z-index: 2;
+        background-color: $white;
     }
 }
 .personal_area {
@@ -202,7 +207,21 @@
         }
     }
 }
-
+.header_bacgdaund {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: 845px;
+    .header_color_block1 {
+        background-color: $beige-dark;
+        width: 967px;
+    }
+    .header_color_block2 {
+        background-color: $beige;
+        width: 476px;
+    }
+}
 @import "media";
 
 // $beige-dark: #F9F1E7;
