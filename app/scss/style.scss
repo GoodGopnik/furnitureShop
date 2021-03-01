@@ -10,13 +10,90 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-.variable-width img {
-    padding: 0 30px
+.header_block {
+    margin-top: 40px;
 }
-.ind_block {
-    position: absolute
+.header_nav_block {
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        list-style: none;
+        margin: 0 20px;
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Gilroy-Medium';
+        color: $black;
+        font-size: 16px;
+    }
+}
+.form_search {
+    .icon_search {
+        width: 470px;
+        height: 45px;
+        position: relative;
+    }
+    .icon_search::after {
+        content: "";
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        width: 100px;
+        height: 100px;
+        background: violet;
+
+    }
+    input {
+        padding-left: 35px;
+    }
+    // .img_search img {
+    //     position: absolute;
+    //     top: 55px;
+    //     left: 645px;
+    // }
 }
 
+
+.variable-width img {
+    padding: 0 30px;
+}
+.header_slider .slick-next {
+    color: sandybrown;
+}
+.header_slider .slick-dots button {
+    border-radius: 50%;
+    outline: none;
+    font-size: 0;
+    padding: 5px 5px;
+    background: $grey-light;
+    margin: 0 20px;
+}
+.header_slider .slick-dots li {
+    list-style: none;
+}
+.header_slider .slick-active button {
+    background: $rusty;
+    border-radius: 50%;
+    outline: none;
+    font-size: 0;
+    padding: 6px 6px;
+    border: 1px solid $rusty;
+    position: relative;
+}
+.header_slider .slick-active button::after {
+    content: "";
+    position: absolute;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid $rusty;
+    top: -5px;
+    left: -5px;
+}
 
 @import "media";
 
@@ -27,6 +104,7 @@
 // $rusty: #E89F71;
 // $white: #fff;
 // $grey: #F4F5F7;
+// $grey-light: #D8D8D8;
 // $Gilroy-Medium: 'Gilroy-Medium', sans-serif; 500
 // $Gilroy-Bold: 'Gilroy-Bold', sans-serif; 700
 // $Gilroy-Regular: 'Gilroy-Regular', sans-serif; 400
