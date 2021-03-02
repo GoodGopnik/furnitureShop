@@ -1,0 +1,96 @@
+@media(max-width: 960px) {
+    .form_search .icon_search {
+        width: 350px;
+    }
+    .header_slider .slick-arrow {
+        right: 90px;
+    }
+}
+@media(max-width: 880px) {
+    .header_block .header_slider .slick-dots {
+        display: none !important;
+    }
+    .form_search .icon_search {
+        width: 250px;
+    }
+}
+@media(max-width: 740px) {
+    .header_nav_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        padding: 0 10px;
+    }
+    .header_block {
+        padding-top: 10px;
+    }
+    .header_nav ul {
+        li {
+            margin: 0 7px;
+        }
+    }
+    .personal_area {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        a {
+            margin: 0;
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+    .header_slider_about_block {
+        max-width: 400px;
+        height: 450px;
+        padding: 60px 60px;
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(31px);
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        h1 {
+            font-family: 'Gilroy-Bold';
+            font-size: 36px;
+            color: $black;
+            line-height: 35px;
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            font-family: 'Gilroy-Medium';
+            font-size: 16px;
+            color: #898989;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+            margin-top: 15px;
+        }
+        button {
+            max-width: 374px;
+            height: 78px;
+            width: 100%;
+            outline: none;
+            background: $rusty;
+            color: $white;
+            font-size: 16px;
+            font-family: 'Gilroy-SemiBold';
+            margin-top: 48px;
+            border: none;
+        }
+    }
+    .header_slider .slick-arrow {
+        display: none !important;
+    }
+    .inl {
+        right: 200px;
+        bottom: 30px;
+    }
+}
+@media(max-width: 550px) {
+    .inl {
+        right: 350px;
+        bottom: 30px;
+    }
+}
