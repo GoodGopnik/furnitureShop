@@ -259,8 +259,78 @@
         }
     }
 }
-
-
+//////////////////////// Products ////////////////////////
+.products {
+    h2 {
+        margin: 0;
+        font-family: 'Gilroy-Bold';
+        font-size: 40px;
+        color: $black;
+        text-align: center;
+        margin-bottom: 32px; 
+    }
+    .products_about_block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        .products_block {
+            margin: 10px 10px;
+        }
+        .products_button {
+            font-family: 'Gilroy-SemiBold';
+            font-size: 16px;
+            color: $rusty;
+            background: $white;
+            border: 1px solid $rusty;
+            padding: 12px 41px;
+            margin-top: 40px;
+        }
+        .products_block_text {
+            background: $grey;
+            padding-left: 16px;
+            padding-right: 30px;
+            padding-top: 16px;
+            padding-bottom: 30px;
+            h4 {
+                margin: 0;
+                font-family: 'Gilroy-SemiBold';
+                font-size: 24px;
+                color: $black;
+                line-height: 28px;
+            }
+            p {
+                margin: 0;
+                margin-top: 8px;
+                font-family: 'Gilroy-Medium';
+                font-size: 16px;
+                color: #898989;
+                line-height: 24px;
+            }
+            .products_block_text_inblock {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                margin-top: 8px;
+                p {
+                    font-size:'Gilroy-SemiBold';
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: $black; 
+                }
+                span {
+                    font-family: 'Gilroy-Regular';
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #B0B0B0; 
+                    padding-top: 10px;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
 
 
 @import "media";
