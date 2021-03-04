@@ -16,6 +16,24 @@
         }
     }
 }
+@media(max-width: 1200px) {
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: 400px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width: 1000px) {
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: 260px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
 @media(max-width: 960px) {
     .form_search .icon_search {
         width: 350px;
@@ -60,7 +78,15 @@
     .form_search .icon_search {
         width: 250px;
     }
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: 190px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
 }
+
 @media(max-width: 830px) {
     .wrapper .rooms_slider_about_block .slick-dots {
         display: flex;
@@ -147,6 +173,15 @@
         bottom: 30px;
     }
 }
+@media(max-width: 700px) {
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: 100px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
 @media(max-width: 550px) {
     .inl {
         right: 350px;
@@ -155,5 +190,31 @@
     .wrapper .rooms_slider_text {
         right: -60px;
         bottom: 50px;
+    }
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: 40px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media(max-width: 400px) {
+    .tips_tricks .tips_tricks_about_slider_block .block5 .slick-dots  {
+        position: absolute;
+        left: -45px;
+        bottom: -50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .tips_tricks .tips_tricks_about_slider_block .block5 .tips_tricks_block .tips_tricks_block_text {
+        h4 {
+            font-size: 20px;
+            padding: 0 30px;
+        }
+        p {
+            font-size: 14px;
+            padding: 0 30px;
+        }
     }
 }
