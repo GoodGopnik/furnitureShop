@@ -31,3 +31,24 @@ $('.variable-width').slick({
     // dots: true,
     // slidesToShow: 3,
   });
+
+  $('.block5').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 2000, 
+    slidesToShow: 3,
+    centerMode: true,
+    variableWidth: true,
+    // variableWidth: false,
+    // centerPadding: '-10px',
+    // slidesToShow: 1,
+    prevArrow: "<img src='../images/block5/Line-left.png' class='block5_prev' alt=''>",
+    nextArrow: "<img src='../images/block5/Line-right.png' class='block5_next' alt=''>",
+    
+    // centerMode: true,
+    // infinite: false,
+    // dots: true,
+    // slidesToShow: 3,
+  });
