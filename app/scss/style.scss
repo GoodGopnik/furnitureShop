@@ -472,8 +472,60 @@
     }
     .tips_tricks_about_slider_block {
         .block5 {
+            .slick-dots {
+                position: absolute;
+                left: 415px;
+                bottom: -50px;
+                display: flex;
+                flex-direction: row;
+            }
+            .slick-dots button {
+                border-radius: 50%;
+                outline: none;
+                font-size: 0;
+                padding: 5px 5px;
+                background: $grey-light;
+                position: relative;
+            }
+            .slick-dots .slick-active button {
+                background: $rusty;
+                border: 1px solid $rusty;
+            }
+            .slick-dots .slick-active button::after {
+                content: "";
+                position: absolute;
+                padding: 10px 10px;
+                border-radius: 50%;
+                border: 1px solid $rusty;
+                top: -6px;
+                left: -6px;
+            }
+            .slick-dots li {
+                list-style: none;
+                font-size: 0;
+                margin: 0 20px;
+            }
+            .block5_prev {
+                position: absolute;
+                left: -15px;
+                bottom: 140px;
+                z-index: 2;
+                border-radius: 50%;
+                background: $white;
+                padding: 8px 10px;
+                box-shadow: 2px 2px;
+            }
+            .block5_next {
+                position: absolute;
+                right: -15px;
+                bottom: 140px;
+                border-radius: 50%;
+                background: $white;
+                padding: 8px 10px;
+                box-shadow: 2px 2px;
+            }
             .slick-current .tips_tricks_block_border {
-                box-shadow: 5px 10px 10px;
+                box-shadow: 5px 0 10px;
             }
             .slick-active .tips_tricks_block {
                 padding: 0 20px;

@@ -35,9 +35,9 @@ $('.variable-width').slick({
   $('.block5').slick({
     dots: true,
     infinite: true,
-    speed: 300,
-    autoplay: true,
-    autoplaySpeed: 2000, 
+    // speed: 300,
+    // autoplay: true,
+    // autoplaySpeed: 2000, 
     slidesToShow: 3,
     centerMode: true,
     variableWidth: true,
