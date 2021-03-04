@@ -369,6 +369,10 @@
             outline: none;
         }
     }
+    .rooms_slider_about_block {
+        max-width: 1000px;
+        width: 100%;
+    }
     .center .slick-current {
         position: relative;
         z-index: 1;
@@ -388,7 +392,7 @@
     }
     .rooms_slider_about_block .slick-arrow {
         position: absolute;
-        right: 80px;
+        right: 60px;
         top: 250px;
     }
     .rooms_slider_about_block .slick-dots button {
