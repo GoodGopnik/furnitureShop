@@ -8,9 +8,9 @@ $('.variable-width').slick({
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,
-    prevArrow: "<img src='../images/head/Line-left.png' class='prev' alt=''>",
+    prevArrow: "<img src='../images/head/Line-left.png' class='prev' alt=''>",   
     nextArrow: "<img src='../images/head/Line-right.png' class='next' alt=''>",
-  });
+  }); 
 
   $('.center').slick({
     dots: true,
