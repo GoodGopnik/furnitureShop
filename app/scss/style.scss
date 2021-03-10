@@ -557,6 +557,29 @@
         }
     }
 }
+//////////////////////// Furniture ////////////////////////
+.furniture {
+    padding-bottom: 87px;
+    h2 {
+        margin: 0;
+        text-align: center;
+        font-family: 'Gilroy-Bold';
+        font-size: 40px;
+        color: $black;
+    }
+    p {
+        margin: 0;
+        text-align: center;
+        font-family: 'Gilroy-SemiBold';
+        font-size: 20px;
+        color: #616161;
+        padding-top: 52px;
+        padding-bottom: 8px;
+    }
+  
+}
+
+
 
 @import "media";
 

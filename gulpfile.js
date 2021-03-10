@@ -20,7 +20,8 @@ gulp.task('scss', function(){
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(autoprefixer({
-      browsers: ['last 8 versions']
+      browsers: ['last 8 versions'],
+      grid: true
     }))
     .pipe(rename({suffix: '.min'}))
     .pipe(sourcemaps.write('./'))
