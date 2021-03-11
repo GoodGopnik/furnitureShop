@@ -1,3 +1,41 @@
+@media(max-width: 1439px) {
+    .wrapper .furniture .furniture_about_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper .furniture .furniture_about_block .block_furniture1 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        .img2 {
+            margin: 0;
+            margin-top: 16px;
+        }
+        .img3 {
+            margin: 0;
+            margin-top: 16px;
+        }
+    }
+    .wrapper .furniture .furniture_about_block .block_furniture2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    .wrapper .furniture .furniture_about_block .block_furniture3 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        .img6 {
+            margin: 0;
+            margin-bottom: 16px;
+        }
+    }
+}
 @media(max-width: 1250px) {
     .rooms {
         display: flex;

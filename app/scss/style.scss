@@ -577,12 +577,15 @@
         padding-bottom: 8px;
     }
   .furniture_about_block {  
-    border: 1px solid aqua;
     display: flex;
     justify-content: space-between;
       .block_furniture1 {
           display: flex;
           flex-wrap: wrap;
+          img {
+            max-width: 100%;
+            height: auto;
+          }
           .img2 {
               height: 312px;
               margin-top: 70px;
@@ -599,11 +602,27 @@
       .block_furniture2 {
           display: flex;
           align-items: center;
+          max-width: 295px;
+          height: 392px;
+          height: 100%;
+          width: 100%;
           margin: 0 15px;
+          margin-top: 160px;
+          img {
+              max-width: 295px;
+              height: 392px;
+              height: 100%;
+              width: 100%;
+          }
+          
       }
       .block_furniture3 {
           display: flex;
           flex-wrap: wrap;
+          img {
+            max-width: 100%;
+            height: auto;
+          }
           .img6 {
               height: 348px;
               margin-top: 130px;
