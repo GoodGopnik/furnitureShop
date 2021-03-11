@@ -79,6 +79,18 @@
     .header_slider .slick-arrow {
         right: 90px;
     }
+    .footer_about_block {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        .footer_block1 {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .footer_about_block {
+        text-align: center;
+    }
 }
 @media(max-width: 960px) {
     .quality {
