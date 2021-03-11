@@ -1,3 +1,11 @@
+let mask = document.querySelector('.mask');
+
+window.addEventListener('load', () => {
+  mask.classList.add('hide');
+  setTimeout(() => {
+      mask.remove();
+  }, 3000)
+});
 $('.variable-width').slick({
     dots: true,
     infinite: true,
@@ -35,3 +43,5 @@ $('.variable-width').slick({
     prevArrow: "<img src='../images/block5/Line-left.png' class='block5_prev' alt=''>",
     nextArrow: "<img src='../images/block5/Line-right.png' class='block5_next' alt=''>",
   });
+
+
