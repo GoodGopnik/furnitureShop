@@ -121,8 +121,15 @@
         font-family: 'Gilroy-SemiBold';
         margin-top: 48px;
         border: none;
+        cursor: pointer;
     }
-}
+    button:hover {
+        color: #f5f064;
+        transition: 0.8s;
+    }
+    button:active {
+        background: $white;
+    }
 .variable-width img {
     padding: 0 30px;
 }
@@ -161,6 +168,11 @@
     justify-content: space-around;
     right: 165px;
     top: -90px;
+    cursor: pointer;
+}
+.header_slider .slick-arrow:hover {
+    background: #f5f064;
+    transition: 0.8s;
 }
 .header_slider .slick-active button {
     background: $rusty;
@@ -288,6 +300,14 @@
             border: 1px solid $rusty;
             padding: 12px 41px;
             margin-top: 40px;
+            outline: none;
+        }
+        .products_button:hover {
+            color: #f5f064;
+            transition: 0.5s;
+        }
+        .products_button:active {
+            background: $rusty-dark;
         }
         .products_block_text {
             background: $grey;
@@ -369,6 +389,15 @@
             padding: 12px 20px;
             margin-top: 38px;
             outline: none;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            color: #f5f064;
+            transition: 0.5s;
+        }
+        button:active {
+            background: $white;
         }
     }
     .rooms_slider_about_block {
@@ -391,6 +420,10 @@
         border-radius: 50%;
         padding: 20px 20px;
         background: $white;
+    }
+    .rooms_slider_about_block .prev:hover {
+        background: #f5f064;
+        transition: 0.8s;
     }
     .rooms_slider_about_block .slick-arrow {
         position: absolute;
