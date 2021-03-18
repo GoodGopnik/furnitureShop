@@ -878,6 +878,32 @@
   .hide {
       opacity: 0;
   }
+  //////////////////////// account ////////////////////////
+  .account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin: 0;
+        font-family: 'Gilroy-Bold';
+        color: #000;
+        font-size: 34px;
+        margin: 20px 0;
+    }
+    .icon_accont {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    a {
+        text-decoration: none;
+        font-family: 'Gilroy-Regular';
+        font-size: 20px;
+        line-height: 24px;
+        color: #616161;
+        margin-bottom: 16px;
+    }
+  }
 
 
 @import "media";
