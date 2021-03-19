@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   mask.classList.add('hide');
   setTimeout(() => {
       mask.remove();
-  }, 3000)
+  }, 1000)
 });
 $('.variable-width').slick({
     dots: true,
@@ -44,4 +44,23 @@ $('.variable-width').slick({
     nextArrow: "<img src='../images/block5/Line-right.png' class='block5_next' alt=''>",
   });
 
+  let footerBlock4InputButton = document.querySelector(".footer_block4_input_button");
+  let myModal = document.getElementById('my_modal');
+  let btModalClose = document.getElementById('bt_modal_close');
+  
+  footerBlock4InputButton.onclick = function () {
+    myModal.style.display = "flex";
+  }
+  btModalClose.onclick = function () {
+    myModal.style.display = "none";
+  }
+  window.onclick = function (event) {
+    if (event.target == myModal) {
+      myModal.style.display = "none";
+    }
+  }
 
+
+
+
+  

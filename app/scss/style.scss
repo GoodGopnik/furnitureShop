@@ -800,7 +800,7 @@
     background: $rusty;
     top: 0;
     z-index: 100;
-    transition: 3s;
+    // transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -892,7 +892,7 @@
   .hide {
       opacity: 0;
   }
-  //////////////////////// account ////////////////////////
+//////////////////////// account ////////////////////////
   .account {
     display: flex;
     flex-direction: column;
@@ -918,6 +918,52 @@
         margin-bottom: 16px;
     }
   }
+//////////////////////// Footer Modal ////////////////////////
+.modal_footer {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    .mobal_block {
+        background-color: $white;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        h2 {
+            color: $black;
+            margin-bottom: 10px;
+            font-family: $Gilroy-Medium;
+            font-size: 30px;
+        }
+        p {
+            color: $black;
+            font-family: $Gilroy-Regular;
+            font-size: 16px;
+        }
+        button {
+            color: $black;
+            font-family: $Gilroy-Regular;
+            font-size: 16px;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+
 
 
 @import "media";
